@@ -1,0 +1,10 @@
+version: "v2.20.2-desktop.1"
+
+services:
+  app:
+    container_name: test-tables-c
+    image: test-tables-i
+    build:
+      context: .
+    ports:
+      - 3000:80
