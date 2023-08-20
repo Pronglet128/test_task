@@ -1,0 +1,20 @@
+{
+	"header": [
+		{"id": "expenses", "type": "string", "caption": "Expenses"},
+		{"id": "unit", "type": "string", "caption": "Unit", "align": "center"},
+		{"id": "price", "type": "float", "caption": "Price"},
+		{"id": "amount", "type": "int", "caption": "Amount"},
+		{"id": "sum", "type": "float", "caption": "Sum"},
+		{"id": "discount", "type": "boolean", "caption": "Discount"},
+		{"id": "disc_amount", "type": "float", "caption": "% of discount"},
+		{"id": "total_with_disc", "type": "float", "caption": "Total with discount"}
+	],
+	"data": [
+		["Market analysis", "service", 100.0, 1, 100.0, false, null, 100.0],
+		["Wireframe creation", "model", 700.0, 2, 1400.0, true, 10, 1260.0],
+		["Site prototype", "model", 1500.0, 2, {"d": 3000.0, "color": "selected"}, true, 10, 2700.0],
+		["Site development", "service", 3000.0, 1, 3000.0, false, null, 3000.0],
+		["Extra features", "service", 250.0, 4, 1000.0, true, 5, 950.0],
+		["Domain purchase", "piece", 20.0, 1, 20.0, false, null, 20.0]
+	]
+}

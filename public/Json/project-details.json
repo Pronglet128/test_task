@@ -1,0 +1,19 @@
+{
+	"header": [
+		{"id": "project_name", "type": "string", "caption": "Project name"},
+		{"id": "case_id", "type": "int", "caption": "Case ID"},
+		{"id": "supervisor", "type": "string", "caption": "Supervisor"},
+		{"id": "closed", "type": "boolean", "caption": "Closed"},
+		{"id": "start_date", "type": "string", "caption": "Start date", "align": "center"},
+		{"id": "end_date", "type": "string", "caption": "End date", "align": "center"}
+	],
+	"data": [
+		["Mimesis", 7279, "Thompson", false, {"d": "15.04.2022", "color": "selected", "style": "date"}, {"d": null, "style": "date"}],
+		["Mako", 3415, "Anderson", false, {"d": "23.01.2021", "style": "date"}, {"d": null, "style": "date"}],
+		["Edelweiss", 9405, "Hayes", true, {"d": "25.12.2020", "style": "date"}, {"d": "30.07.2023", "style": "date"}],
+		["Forget-me-not", 2818, "Robinson", false, {"d": "22.11.2022", "style": "date"}, {"d": null, "style": "date"}],
+		["Zig-zag", 3797, "Hayes", true, {"d": "02.10.2020", "style": "date"}, {"d": "15.01.2023", "style": "date"}],
+		["Mireive", 6476, "Anderson", false, {"d": "04.03.2021", "style": "date"}, {"d": null, "style": "date"}],
+		["Ultra", 3695, "Robinson", false, {"d": "24.09.2022", "style": "date"}, {"d": null, "style": "date"}]
+	]
+}

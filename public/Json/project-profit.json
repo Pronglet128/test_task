@@ -1,0 +1,24 @@
+{
+	"header": [
+		{"id": "project_name", "type": "string", "caption": "Project name"},
+		{"id": "total_by_project", "type": "float", "caption": "Total by project"},
+		{"id": "project_type", "type": "string", "caption": "Project type", "align": "center"},
+		{"id": "jan", "type": "float", "caption": "Jan"},
+		{"id": "feb", "type": "float", "caption": "Feb"},
+		{"id": "mar", "type": "float", "caption": "Mar"},
+		{"id": "apr", "type": "float", "caption": "Apr"},
+		{"id": "may", "type": "float", "caption": "May"},
+		{"id": "jun", "type": "float", "caption": "Jun"},
+		{"id": "outsource", "type": "boolean", "caption": "Outsource"},
+		{"id": "num_ou_tasks", "type": "int", "caption": "Number of OU tasks"}
+	],
+	"data": [
+		["Mimesis", 5100.0, "commercial", 2048.2, 4096.0, 7200.3, 9600.2, 1073.0, 2308.5, false, null],
+		["Mako", 2345.1, "internal", 3465.3, {"d": 12.5, "color": "selected"}, 15.7, 2285.1, -4009.9, -108.7, false, null],
+		["Edelweiss", 54.4, "commercial", 564.8, {"d": 4652.3, "color": "success", "background-color": "success"}, -3120.1, 2919.9, -4712.85, 1638.9, true, 2],
+		["Forget-me-not", 930.1, "commercial", 120.7, 362.5, 4570.4, 6134.2, 8359.0, 5886.2, false, null],
+		["Zig-zag", 258.9, "internal", 345.0, {"d": 8142.5, "color": "success", "background-color": "success"}, -6924.1, -6747.9, 1382.5, 3752.0, false, null],
+		["Mireive", 8447.1, "commercial", 2568.1, -2596.9, 3477.1, 2058.4, 2512.9, 1206.7, true, 4],
+		["Ultra", 2176.6, "internal", -1502.1, 2444.8, 869.8, 2976.2, 4162.2, 4397.1, false, null]
+	]
+}
